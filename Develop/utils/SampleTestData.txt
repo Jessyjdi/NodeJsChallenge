@@ -2,23 +2,25 @@ Project Title
 Professional README Generator
 
 Description
-For every project a README document is important. So that the user of the application will know what actually the application does and how its is going to be useful for the user.
-This ReadMe generator was created by using NodeJS, FileSystem, Inquirer (NPM).
-This app automatically generates professional ReadMe's with the table of content, credits, links etc.
+For every project a README document is important. So that the user of the application will know what actually the application does and how its is going to be useful for the user. This ReadMe generator was created by using NodeJS, FileSystem, Inquirer (NPM).is app automatically generates professional ReadMe's with the table of content, credits, links etc.
 
 Installation:
 NodeJs, npm, VS code editor(extensions), Inquirer 8.2.4 (or later).
 
 Contribution:
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-Please make sure to update tests as appropriate.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.Please make sure to update tests as appropriate.
+
+Credit:
+Instructor and TA's from bootcamp, https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba, https://www.npmjs.com/package/inquirer#installation
 
 Usage
 Markdown, JavaScript, Node, JSON
 
 GitHub Username
 https://github.com/Jessyjdi
+
+Video Link:
+coming soon...
 
 email:
 jessy123@gmail.com

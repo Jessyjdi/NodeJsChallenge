@@ -59,8 +59,9 @@ function generateMarkdown(data) {
   - [Description](#Description)
   - [Usage](#Usage)
   - [Installation](#installation)
-  * [License] (#license)
-  * [Reach-us] (#reach-us)
+  - [License](#license)
+  - [Credit](#credit)
+  - [Reach-us](#reach-us)
   ${renderLicenseLink(data.license)}
   ## Description
   ${data.description}
@@ -80,6 +81,9 @@ function generateMarkdown(data) {
 
   ## Contribution Guidelines
   ${data.contribution}
+
+  ## Credit
+  ${data.credit}
 
   ## List the project dependencies
   ${data.dependencies}

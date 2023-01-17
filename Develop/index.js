@@ -50,6 +50,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'credit',
+        message: 'List your collaborators or guide:',
+    },
+    {
+        type: 'input',
         name: 'github',
         message: 'Enter your GitHub Username:',
     },
