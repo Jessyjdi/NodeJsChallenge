@@ -56,9 +56,9 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
 
   ## Table of Content 📖
-  * [Description] (#Description)
-  * [Usage] (#Usage)
-  * [Installation] (#installation)
+  - [Description] (#Description)
+  - [Usage] (#Usage)
+  - [Installation] (#installation)
   * [License] (#license)
   * [Reach-us] (#reach-us)
   ${renderLicenseLink(data.license)}
