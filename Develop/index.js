@@ -15,7 +15,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Please enter the description of the project',
+        message: 'Please enter the description of the project:',
     },
     {
         type: 'input',
@@ -25,17 +25,17 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Usage Information',
+        message: 'Usage Information:',
     },
     {
         type: 'input',
         name: 'contribution',
-        message: 'Contribution Guidelines',
+        message: 'Contribution Guidelines:',
     },
     {
         type: 'input',
         name: 'dependencies',
-        message: 'List the project dependencies here',
+        message: 'List the project dependencies:',
     },   
     {
         type: 'list',
@@ -46,12 +46,12 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Enter your GitHub Username',
+        message: 'Enter your GitHub Username:',
     },
     {
         type: 'input',
         name: 'videolink',
-        message: 'Enter your project video link',
+        message: 'Enter your project video link:',
     },
     {
         type: 'input',
@@ -69,7 +69,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses) => {
-        console.log("Generating Professional README.md File...");
+        console.log("Generating Professional README.md File!");
         writeToFile("./README.md", generateMarkdown({ ...responses }));
       });
 }

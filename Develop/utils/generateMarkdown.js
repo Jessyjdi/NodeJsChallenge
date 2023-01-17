@@ -62,12 +62,12 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Table of Content 📖
-  * [Usage Information] (#usageinformation)
+  * [Usage] (#usage)
   * [Contribution Guidelines] (#contributionguidelines)
   * [List the project dependencies] (#listofprojectdependencies)
   * [Reach us] (#reachus)
-  
-  ##  Usage Information
+  ${renderLicenseLink(data.license)}
+  ##  Usage
   ${data.usage}
 
   ## Contribution Guidelines
@@ -77,7 +77,7 @@ function generateMarkdown(data) {
   ${data.dependencies}
 
   ## Reach us
-  For any questions please reach us through: ${data.email})
+  For any questions please reach us at: (${data.email}).
 
   ## GitHub username
   ${data.github}
