@@ -51,22 +51,23 @@ return ``;
 function generateMarkdown(data) {
   return `
   # ${data.title}
+  by ${data.devName}
   
-  ## 🔎 Description
-  ${data.decription}
+  ${renderLicenseBadge(data.license)}
+
+  ## Table of Content 📖
+  * [Description] (#description)
+  * [Usage] (#usage)
+  * [Installation] (#installation)
+  * [List the project dependencies] (#listofprojectdependencies)
+  * [Reach-us] (#reach-us)
+  ${renderLicenseLink(data.license)}
+  ## Description
+  ${data.description}
 
   ## ⚙️ Installation
   ${data.installation}
 
-  ## 📔 Licenses 
-  ${renderLicenseBadge(data.license)}
-
-  ## Table of Content 📖
-  * [Usage] (#usage)
-  * [Contribution Guidelines] (#contributionguidelines)
-  * [List the project dependencies] (#listofprojectdependencies)
-  * [Reach us] (#reachus)
-  ${renderLicenseLink(data.license)}
   ##  Usage
   ${data.usage}
 

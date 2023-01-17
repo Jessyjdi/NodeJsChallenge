@@ -14,6 +14,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'devName',
+        message: 'What the name of the devloper?',
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'Please enter the description of the project:',
     },
