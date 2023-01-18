@@ -11,8 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
 // license reference link https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
-/*let licenseType = license.license;
-let userLicense = " ";*/
+
  if (license === "MIT"){
    return "https://img.shields.io/badge/License-MIT-yellow.svg"
     }             
@@ -63,10 +62,10 @@ function generateMarkdown(data) {
   - [Installation](#installation)
   - [License](#license)
   - [Credit](#credit)
-  - [List the project dependencies] (#listtheprojectdependencies)
+  - [Dependencies] (#dependencies)
   - [Reach-us](#reach-us)
-  - [GitHub username](#githubusername)
-  - [Video Link](#videolink)
+  - [GitHub-username](#github-username)
+  - [Video-Link](#video-link)
 
   ${renderLicenseLink(data.license)}
   ## 🔎 Description
