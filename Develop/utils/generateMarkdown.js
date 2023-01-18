@@ -62,7 +62,7 @@ function generateMarkdown(data) {
   - [Installation](#installation)
   - [License](#license)
   - [Credit](#credit)
-  - [Dependencies] (#dependencies)
+  - [Dependencies](#dependencies)
   - [Reach-us](#reach-us)
   - [GitHub-username](#github-username)
   - [Video-Link](#video-link)
@@ -89,16 +89,16 @@ function generateMarkdown(data) {
   ## 🏆 Credit
   ${data.credit}
 
-  ## List the project dependencies
+  ## Dependencies
   ${data.dependencies}
 
   ## Reach-us
   For any questions please reach us at: (${data.email}).
 
-  ## GitHub name
+  ## GitHub-name
   ${data.github}
 
-  ## 📹 Video Link
+  ## 📹 Video-Link
   ${data.videolink}
 
 `;
