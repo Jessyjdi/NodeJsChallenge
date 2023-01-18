@@ -64,14 +64,14 @@ function generateMarkdown(data) {
   - [Credit](#credit)
   - [Dependencies](#dependencies)
   - [Reach-us](#reach-us)
-  - [GitHub-username](#github-username)
+  - [GitHub-name](#github-name)
   - [Video-Link](#video-link)
 
   ${renderLicenseLink(data.license)}
-  ## 🔎 Description
+  ## Description
   ${data.description}
 
-  ## ⚙️ Installation
+  ## Installation
   ${data.installation}
 
   ## License
@@ -86,7 +86,7 @@ function generateMarkdown(data) {
   ## Contribution Guidelines
   ${data.contribution}
 
-  ## 🏆 Credit
+  ## Credit
   ${data.credit}
 
   ## Dependencies
@@ -98,7 +98,7 @@ function generateMarkdown(data) {
   ## GitHub-name
   ${data.github}
 
-  ## 📹 Video-Link
+  ## Video-Link
   ${data.videolink}
 
 `;
